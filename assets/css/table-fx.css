@@ -24,8 +24,9 @@ td.data-title .link-1 > a > i {
 td.data-title .link-1 > a:hover > i {color: #8C88FF;}
 td.data-title span.country {margin: 5px 0 0 0; font-size: 0.625em; display: block; letter-spacing: 0.05em}
 td.fxrate {font-size: 0.925em;}
-td.fxrate.bestbuy {background: linear-gradient(45deg, transparent 90%, #8C88FF 90%);}
-td.fxrate.bestsell {background: linear-gradient(45deg, transparent 90%, #8C88FF 90%);}
+/*td.fxrate.bestbuy {background: linear-gradient(45deg, transparent 90%, #8C88FF 90%);}
+td.fxrate.bestsell {background: linear-gradient(45deg, transparent 90%, #8C88FF 90%);}*/
+td.fxrate.bestbuy, td.fxrate.bestsell {background: #343743;}
 span.fx-up, span.fx-down, span.fx-neutral { font-size: 0.925em;}
 span.fx-up {color: #6DD9AC;}
 span.fx-down {color: #FB667A;}
