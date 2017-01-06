@@ -1,0 +1,7 @@
+table, th, td {
+  border: 1px solid #4C5160;
+  border-collapse: collapse;
+}
+th, td {padding: 15px;}
+td {text-align: center;}
+.table-wrapper {margin: 20px auto;}

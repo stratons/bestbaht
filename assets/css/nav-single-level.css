@@ -1,0 +1,69 @@
+/* Styles for Single Level Menu */
+.single-nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+
+  /*flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;*/
+
+  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+
+  width: 100%;
+}
+.single-nav ul a {
+  padding: 0.9375em 2.1875em;
+  text-transform: uppercase;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+.single-nav ul a:hover, .single-nav ul a:focus {
+  background: #31323F;
+  color: white;
+}
+.single-nav ul .mobile-button a {
+  position: absolute;
+  left: -99999em;
+}
+@media screen and (max-width: 44.44em) {
+  .single-nav ul {
+    display: flex;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+  }
+  .single-nav ul a {
+    position: absolute;
+    left: -99999em;
+  }
+  .single-nav ul.open li {
+    width: 100%;
+  }
+  .single-nav ul.open li.mobile-button a {
+    background: #6DD9AE;
+    color: #0e3447;
+  }
+  .single-nav ul.open a, .single-nav ul .mobile-button a {
+    position: static;
+  }
+  .single-nav a {
+    width: 100%;
+  }
+}
