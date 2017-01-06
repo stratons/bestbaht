@@ -1,0 +1,11 @@
+.full-bleed-row {
+  width: 100%;
+  background: #4C5160;
+  padding: 0 1em;
+}
+@media (min-width: 62.5em) {
+  .full-bleed-row {padding: 0.4em 2em;}
+}
+.feature {
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+body {background: #414450;}
+.centered {
+  padding: 0 1em;
+  max-width: 75em;
+  margin: 0 auto;
+}
+/*@media screen and (min-width: 75em) {
+    .centered {max-width: 75em; margin: 0 auto;}
+}*/
+@media screen and (max-width: 44.44em) {
+  .centered {padding: 0;}
+}
